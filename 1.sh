@@ -59,24 +59,15 @@ fi
 fi
 a=$((a+1))
 done
-echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 0 :$b" 
-echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 1 $c"
-echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 2 $d" 
-echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 3 $e"  
-echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 4 :$f"
-echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 5 :$g"
-echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 6 :$h"
-echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 7 :$i"
-echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 8 :$j"
-#echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 0 :$b"  
-#echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 1 :$c"  
-#echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 2 :$d"  
-#echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 3 :$e" >> 3.txt
-#echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 4 :$f"  
-#echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 5 :$g"  
-#echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 6 :$h"  
-#echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 7 :$i"  
-#echo "The total no of 0 bit in 8 bit vector which contaions hamming weight 8 :$j"  
+echo "The total 8 bit vector which contaions hamming weight 0 :$b" 
+echo "The total 8 bit vector which contaions hamming weight 1 $c"
+echo "The total 8 bit vector which contaions hamming weight 2 $d" 
+echo "The total 8 bit vector which contaions hamming weight 3 $e"  
+echo "The total 8 bit vector which contaions hamming weight 4 :$f"
+echo "The total 8 bit vector which contaions hamming weight 5 :$g"
+echo "The total 8 bit vector which contaions hamming weight 6 :$h"
+echo "The total 8 bit vector which contaions hamming weight 7 :$i"
+echo "The total 8 bit vector which contaions hamming weight 8 :$j"
 
 #echo "no of 0's is "
 #echo "$value" | tr -cd '0' | wc -c
