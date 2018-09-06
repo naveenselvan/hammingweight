@@ -1,5 +1,5 @@
 #!/bin/bash
-xxd -b input.txt | cut -d" " -f 2-7 >2.bin 
+xxd -b input.txt | cut -d" " -f 2-7 >2.bin   #Converting to binary
 v=`cat 2.bin`
 a=0
 b=0
